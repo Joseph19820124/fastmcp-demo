@@ -1,0 +1,16 @@
+# FastMCP Demo 依赖文件
+
+# FastMCP 核心库 (二选一)
+fastmcp>=2.0.0  # 首选FastMCP v2
+# mcp>=1.0.0    # 如果v2不可用，使用官方SDK
+
+# 数据库
+aiosqlite>=0.19.0
+
+# 实用工具
+python-dotenv>=1.0.0
+
+# 开发工具 (可选)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
